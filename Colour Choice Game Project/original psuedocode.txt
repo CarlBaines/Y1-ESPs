@@ -1,0 +1,48 @@
+Import random
+Computerscore set to 0
+Playerscore set to 0
+While True:
+         Print(“red is equal to 1 \newline yellow is equal to 2 \newline orange is equal to 3\newline green is equal to 4\newline blue is equal to 5”)
+         Input userchoice 
+         While userchoice is less than 5 and userchoice is smaller than 1:
+               Input userchoice
+         If userchoice is equal to 1:
+             Colourchoice is equal to ‘red’
+         Elif userchoice is equal to 2:
+             Colourchoice is equal to ‘yellow’
+         Elif userchoice is equal to 3:
+             Colourchoice is equal to ‘orange’
+         Elif userchoice is equal to 4:
+             Colourchoice is equal to ‘green’
+         Else:
+                 Colourchoice is equal to ‘blue’
+         Print(“Your choice is “ + colourchoice)
+         Print(“\newline The computer is choosing a colour…”)
+         
+          Computerchoice is equal to random.randint(1,5)
+          While computerchoice is equal to is equal to userchoice:
+                Computerchoice is equal to random.randint(1,5)
+             If computerchoice is equal to is equal to 1:
+                Computercolour is equal to ‘red’
+             Elif computerchoice is equal to is equal to 2:
+                Computercolour is equal to ‘yellow’
+             Elif computerchoice is equal to is equal to 3:
+                Computercolour is equal to ‘orange’
+             Elif computerchoice is equal to is equal to 4:
+                Computercolour is equal to ‘green’
+             Else:
+                Computercolour is equal to ‘blue’
+              	Print(“The computer chose “ + computercolour)
+             If colourchoice is equal to is equal to computercolour:
+                  Playerscore is equal to 1
+                  Print(“Player score: “+ str(playerscore))
+                  Print(“Computer score: “ + str(computerscore))
+              Else:
+                  Computerscore is equal to 1
+                  Print(“player score: “ + str(playerscore))
+                  Print(“computer score: “ + str(computerscore))
+                  Print(“Do you want to play again? (y/n)”)
+                  Playagain is equal to input(“Do you want to play again? ")
+                If playagain is equal to is equal to ‘n’ or playagain is equal to is equal to ‘no’
+                    Break
+                    Quit()
