@@ -1,1 +1,1 @@
-# This repository contains all my completed employer set projects during my time at Middlesbrough College.
+# This repository contains all my fully completed employer set projects during my first year at college.
